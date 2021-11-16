@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  *{
+    font-size: 40px;
+  }
+  .header{
+    height: 200px;
+    background-color: #ccc;
+  }
+  main{
+    display: flex;
+  }
+  .left{
+    width: 70%;
+    background-color: #fcc;
+  }
+  .right{
+    width: 25%;
+    margin-left: 5%;
+    background-color: #ccf;
+  }
+  .footer{
+    height: 1200px;
+    background-color: #ccc;
+  }
+  .A,.B{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .A{
+    background-color: #f00;
+    position: sticky; /*只在父層空間移動, 又像absolute, relative and fix*/
+    top: 10px;
+  }
+  .B{
+    background-color: #00f;
+    position: sticky;
+    left: 0px;
+    top: 220px;
+  }
+</style>
+</head>
+<body>
+  <div class="header">
+    header
+  </div>
+
+  <main>
+    <div class="left">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo excepturi dolores libero perferendis natus dicta, autem nihil numquam impedit, eos molestias in. Neque vitae, provident et corporis sed sunt labore.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo excepturi dolores libero perferendis natus dicta, autem nihil numquam impedit, eos molestias in. Neque vitae, provident et corporis sed sunt labore.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo excepturi dolores libero perferendis natus dicta, autem nihil numquam impedit, eos molestias in. Neque vitae, provident et corporis sed sunt labore.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo excepturi dolores libero perferendis natus dicta, autem nihil numquam impedit, eos molestias in. Neque vitae, provident et corporis sed sunt labore.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo excepturi dolores libero perferendis natus dicta, autem nihil numquam impedit, eos molestias in. Neque vitae, provident et corporis sed sunt labore.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo excepturi dolores libero perferendis natus dicta, autem nihil numquam impedit, eos molestias in. Neque vitae, provident et corporis sed sunt labore.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo excepturi dolores libero perferendis natus dicta, autem nihil numquam impedit, eos molestias in. Neque vitae, provident et corporis sed sunt labore.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo excepturi dolores libero perferendis natus dicta, autem nihil numquam impedit, eos molestias in. Neque vitae, provident et corporis sed sunt labore.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo excepturi dolores libero perferendis natus dicta, autem nihil numquam impedit, eos molestias in. Neque vitae, provident et corporis sed sunt labore.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo excepturi dolores libero perferendis natus dicta, autem nihil numquam impedit, eos molestias in. Neque vitae, provident et corporis sed sunt labore.</p>
+    </div>
+    <div class="right">
+      <div class="A">A</div>
+      <div class="B">B</div>
+    </div>
+  </main>
+
+  <div class="footer">
+    footer
+  </div>
+</body>
+</html>

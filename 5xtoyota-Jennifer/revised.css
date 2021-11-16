@@ -1,0 +1,131 @@
+.wrap{
+  width: 960px;
+  margin: auto;
+  line-height: normal;
+}
+.box{
+  position: relative;
+  margin: 10px auto;
+  border: rgb(248, 246, 246) 1px solid;
+}
+.photo_box{
+  width: 600px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  margin:150px auto 0;
+  z-index: 1;
+}
+.box_align_left .photo_box{
+  left: 50px;
+}
+.box_align_right .photo_box{
+  right: 80px;
+}
+.play_image_box{
+  position: absolute;
+  right: -10px;
+  top:50%;
+  z-index: 10;
+}
+.box_align_right .play_image_box{
+  right: 88%;
+}
+.color_block{
+  background-color: #aaa;
+  position: absolute;
+  right: 100px;
+  top: 80px;
+  width: 450px;
+  height: 260px;
+  z-index: -1;
+}
+.box_align_right .color_block{
+  width: 500px;
+  height: 350px;
+}
+.box_align_left .color_block{
+  right: 50px;
+}
+.box_item_content{
+  width: 350px;
+  height: 200px;
+  position: absolute; 
+  padding: 20px;
+  top: 16px;  
+  z-index: 2; 
+}
+.box_align_right .box_item_content{
+  right: 0;
+}
+.intro{
+  padding: 30px;
+  width: 600px;
+  background-color: #bbb;
+  margin-top: -42px;
+  margin-left: 15px;
+  position: relative;
+  z-index: 5;
+}
+.box_align_right .intro{
+  margin-left: auto;
+  margin-right: 20px;
+}
+h1{
+  color: #fff;
+  background-color: #7c0428;
+  display: inline-block;
+  font-size: 55px;
+  width: 100%;
+  padding: 10px 0 0 0;
+}
+h1.title{
+  height: 104px;
+}
+.sub_title{
+  font-weight: bolder;
+}
+h2{
+  color:#fff;
+  background-color: #000;
+  font-size: 28px;
+  padding: 15px;
+}
+.description{
+  padding-left: 15px;
+  padding-bottom: 50px;
+}
+h3{
+  color: #7c0428;
+  font-weight: bolder;
+}
+span{
+  writing-mode: vertical-rl;
+  font-size: larger;
+  text-align: center;
+}
+h3::after{
+  content: '';
+  display: inline-block;
+  background-color: #7c0428;
+  width: 70%;
+  height: 2px;
+  position: relative;
+  bottom: 5px;
+}
+h4{
+  color: #eee;
+  background-color: #000;
+  display: inline-block;
+}
+li::before{
+  content: '\25AA';
+  color: red;
+  width: 1em;
+}
+p{
+  color:#fff;
+  background-color: #000;
+  font-size: 22px;
+  text-align: left;
+}

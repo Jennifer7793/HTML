@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box{
+      width: 500px;
+      height: 600px;
+      border: 2px solid purple;
+      margin: 5px;
+      /* background-color: #ccc; */
+      /* background-image: linear-gradient(角度方向,色標     ,色標);
+      background-image: linear-gradient(角度方向,色彩 位置,色彩 位置); */
+    }
+    .box1{
+      background-image: linear-gradient(90deg, red 0%, yellow 100%);
+    }
+    .box2{
+      background-image: linear-gradient(to right top, red 0%, yellow 100%);
+    }
+    .box3{
+      background-image: linear-gradient(to top, red 0%, yellow 50%);
+    }
+    .box4{
+      background-image: linear-gradient(to bottom, red 0%, yellow 100%, transparent 100%);
+    }
+    .box5{
+      background-image: linear-gradient(to left bottom, blue 0%, green 100%);
+    }
+  </style>
+</head>
+<body>
+  <div class="box box1"></div>
+  <div class="box box2"></div>
+  <div class="box box3"></div>
+  <div class="box box4"></div>
+  <div class="box box5"></div>
+</body>
+</html>

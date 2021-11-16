@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    :root{
+      --jen-col-gap: 15px;
+    }
+    *{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .container{
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 var(--jen-col-gap);
+      box-sizing: border-box;
+    }
+    .row,
+    .jen .row{
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: calc( var(--jen-col-gap)* -1 );
+      margin-left: calc( var(--jen-col-gap)* -1 );
+    }
+    img{
+      width: 100%;
+    }
+    [class*="col-"]{
+      box-sizing: border-box; 
+      padding: 0 var(--jen-col-gap);
+    }
+    .col-1{width: 8.333333%;}
+    .col-2{width: 16.6667%; }
+    .col-3{width: 25%;      }
+    .col-4{width: 33.3333%; }
+    .col-5{width: 41.66666%;}
+    .col-6{width: 50%;      }
+    .col-7{width: 58.3333%; }
+    .col-8{width: 66.6666%; }
+    .col-9{width: 75%;      }
+    .col-10{width: 83.3333%;}
+    .col-11{width: 91.6667%;}
+    .col-12{width: 100%;    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col col-6">
+        <div class="pic">
+        <img src="https://picsum.photos/300/200/?random=1">        
+        </div>
+      </div>
+      <div class="col col-6 jen">
+        <div class="row">
+          <div class="col col-3">
+            <div class="pic">
+              <img src="https://picsum.photos/300/200/?random=1">
+            </div>
+          </div>
+          <div class="col col-3">
+            <div class="pic">
+              <img src="https://picsum.photos/300/200/?random=1">
+            </div>
+          </div>
+          <div class="col col-3">
+            <div class="pic">
+              <img src="https://picsum.photos/300/200/?random=1">
+            </div>
+          </div>
+          <div class="col col-3">
+            <div class="pic">
+              <img src="https://picsum.photos/300/200/?random=1">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

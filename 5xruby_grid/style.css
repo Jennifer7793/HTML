@@ -1,0 +1,264 @@
+.wrap{
+  max-width: 1200px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: auto;
+  background-color: #aaa;
+  background-size: auto 100%;
+}
+.top_bar{
+  display: flex;
+  position: fixed;
+  background-color: rgba(255,255,255);
+  justify-content: space-between;
+  width: 1200px;
+  text-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+h1{
+  font-weight: bolder;
+  font-size: large;
+}
+.company_name{
+  display: inline-flex;
+  align-items: center;
+}
+.company_name img{
+  width: 30px;
+}
+.main_menu{
+  display: flex;
+}
+.main_menu a{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 10px;
+  text-decoration: none;
+}
+.main_menu .line{
+  width: 100%;
+  height: 4px;
+  background-color: #f00;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+.main_menu a:hover .line{
+  transform: scaleX(1);
+}
+.banner img{
+  margin: auto;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.intro{
+  text-align: center;
+  box-sizing: border-box;
+}
+h2{
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 30px;
+}
+h3{
+  font-weight: bolder;
+  font-size: 20px;
+}
+h3.intro_title{
+  padding-bottom: 20px;
+}
+h4{
+  padding: 20px;
+  font-size: 20px;
+}
+.intro_cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+.intro_cards img{
+  height:150px;
+}
+p{
+  line-height: 1.5em;
+  padding-bottom: 10px;
+}
+.tutors{
+  width: 100%;
+}
+.tutor_intro{
+  text-align: left;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.team_intro{
+  text-align: left;
+  padding-left: 288px;
+  padding-bottom: 50px;
+}
+.tutors_team{
+  padding-top: 200px; 
+  width: 80%;
+}
+.tutor_dp_n_intro{
+  display: flex;
+}
+.tutor_dp_intro{
+  text-align: left;
+  padding: 10px;
+}
+.tutor_cards{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border-color: #aaa;
+  justify-content: space-evenly;
+}
+.tutor_card{
+  box-sizing: border-box;
+  width: 80%;
+  padding: 20px;
+}
+.tutor_card img{
+  width: 150px;
+  height: 150px;
+  border-radius:50%;
+  object-fit: cover;
+}
+.media_icons img{
+  width: 20px;
+  height: 20px;
+}
+.tutor_intro{
+  text-align: left;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.course{
+  border-style: solid;
+  border-color: #f00;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  text-align: center;
+  padding: 0.25rem 0.75rem;
+  display: inline-block;
+  color: #f00;
+}
+.more_btn{
+  color: #fff;
+  background-color: #f00;
+  border: 20px 30px;
+  display: inline-block;
+  border-radius: 0.25rem;
+  padding: 0.25rem 1.5rem;
+  margin: auto;
+}
+.reports{
+  text-align: center;
+}
+.news{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  line-height: 3rem;
+}
+.news_card{
+  width:50%;
+  text-align: left;
+}
+.news_title{
+  width: 600px;
+  line-height: 2rem;
+}
+.source{
+  width: 100%;
+  padding-bottom: 30px;
+}
+.news_title a:hover{
+  color:#f00;
+}
+.news_title a{
+  width: 100%;
+  font-size: 24px;
+  color:black;
+  text-decoration: none;
+}
+.recent_course_intros{
+  display: flex;
+  justify-content: space-evenly;
+}
+.recent_course_intro img{
+  width: 300px;
+}
+.online_n_camp{
+  display: flex;
+  text-align: center;
+}
+.online_n_camp img{
+  width: 500px;
+  justify-content: space-evenly;
+}
+.review_title{
+  text-align: center;
+}
+.student_review{
+  display: flex;
+}
+.review_card{
+  width: 30%;
+}
+.articles{
+  align-items: center;
+  text-align: center;
+}
+.article_cards{
+  display: flex;
+  text-align: left;
+}
+.article_cards img{
+  width:350px;
+}
+.company_info{
+  display: flex;
+  background-color: rgb(47, 47, 59);
+  height: 500px;
+  color:rgb(240, 238, 235);
+}
+.website_intro{
+  display: flex;
+  flex-wrap: wrap;
+}
+.x5_basic_info{
+  padding: 80px 0 0 20px;
+  width: 30%;
+}
+.copyright{
+  text-align: center;
+  background-color: rgb(6, 6, 36);
+  height: 50px;
+  color: #aaa;
+}
+.col-1{width: 8.333333%;}
+.col-2{width: 16.6667%; }
+.col-3{width: 25%;      }
+.col-4{width: 33.3333%; }
+.col-5{width: 41.66666%;}
+.col-6{width: 50%;      }
+.col-7{width: 58.3333%; }
+.col-8{width: 66.6666%; }
+.col-9{width: 75%;      }
+.col-10{width: 83.3333%;}
+.col-11{width: 91.6667%;}
+.col-12{width: 100%;    }

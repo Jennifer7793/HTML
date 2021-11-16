@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box{
+      width: 300px;
+      height: 300px;
+      background-color: #000;
+    }
+    /* @media 裝置類型 and 條件1 and 條件2{
+      符合條件時，會執行的CSS
+    } */
+    /* pad 直 */
+    @media screen and (min-width:768px){
+      .box{
+        background-color: #f00;
+      }
+    }
+    /* pad橫 & pro直 */
+    @media screen and (min-width:1024px){
+      .box{
+        background-color: #ff0;
+      }
+    }
+    /* pad pro 橫&直 */
+    @media screen and (min-width:1200px){
+      .box{
+        background-color: #0ff;
+      }
+    }
+    /* 以上三個順序大小不能對調，不然後面會複寫掉前面，就失去作用(優先權) */
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
